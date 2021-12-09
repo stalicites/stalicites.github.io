@@ -2,7 +2,7 @@
 const game = document.getElementById("gameFrame");
 const display = game.getContext("2d");
 
-let developerMode = true;
+let developerMode = false;
 
 game.style.border = "3px solid yellow"
 
