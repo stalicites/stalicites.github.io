@@ -1,0 +1,105 @@
+
+h2 {
+    font-size: 15px;
+}
+
+body {
+    overflow-x: none;
+    overflow-y: none;
+}
+
+* {
+    font-family: 'Comfortaa', cursive;
+}
+
+.blue {
+    border: 2px solid skyblue; 
+    color: skyblue;
+}
+
+.red {
+    border: 2px solid rgb(247, 108, 108); 
+    color:rgb(247, 108, 108);
+}
+
+.yellow {
+    border: 2px solid rgb(247, 247, 108); 
+    color:rgb(247, 247, 108);
+}
+
+.button_slide {
+    color: #FFF;
+    padding: 18px 36px;
+    display: inline-block;
+    cursor: pointer;
+    color: #000;
+    box-shadow: inset 0 0 0 0 #000;
+    -webkit-transition: ease-out 0.3s;
+    -moz-transition: ease-out 0.3s;
+    transition: ease-out 0.3s;
+}
+
+.slide_right:hover {
+    box-shadow: inset 0 0 0 50px #000;
+    color: white;
+}
+
+.slide_right_blue:hover {
+    box-shadow: inset 0 0 0 50px rgb(2, 153, 212);
+    color: white;
+}
+
+.slide_right_red:hover {
+    box-shadow: inset 0 0 0 50px rgb(250, 48, 48);
+    color: white;
+}
+
+.slide_right_yellow:hover {
+    box-shadow: inset 0 0 0 50px rgb(170, 170, 0);
+    color: white;
+}
+
+.large {
+    font-size: 25px;
+}
+
+
+
+a {
+    color: green;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.05); }
+
+
+img {
+    width: 150px;
+    height: 100px;
+}
+
+div {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    margin-top: 2%;
+}
+input {
+    text-align: center;
+    width: 250px;
+    height: 60px;
+}
+
+button {
+    width: 250px;
+    height: 70px;
+    background-color: white;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+select {
+    border: 2px solid black;
+}

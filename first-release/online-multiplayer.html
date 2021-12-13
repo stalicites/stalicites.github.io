@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <script src="app.js"></script>
+        <script src="database.js"></script>
+        <title>Online Connect 4!</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body> 
+        <div id = "a">
+            <h1 id = 'title' style="text-align: center;">Online CONNECT 4</h1>
+            <h2>Join A Room</h2>
+            <input type="text" placeholder="Room Id" id = "room-id">
+            <p></p>
+            <button id = "join-room" class="grow blue">Join</button>
+        </div>
+        <div id = "q">
+            <h2 id = "rename">Create A Room</h2>
+            <input type="text" placeholder="Room Name" id = "room-name">
+            <p id = "error-create"></p>
+            <p></p>
+            <button id = "create-room" class="grow red">Create</button>
+            <p id = "funny" style="cursor: pointer;">Show Public Rooms</p>
+            <a href="index.html" id = "go-back">Go back</a>
+        </div>
+        <canvas id = "canvas" width="490"; height="490"></canvas>
+    </body>
+    <script src="room.js"></script>
+</html>
