@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+			https://firebase.google.com/docs/web/setup#available-libraries -->
+		<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-storage.js"></script>
+		<link rel="stylesheet" type="text/css" href="button.css">
+		<script src="base.js"></script>
+	</head>
+	<body>
+		<a href = "other.html"><button id = "createMeme">Create Shitpost</button></a>
+		<p></p>
+		<a href = "settings.html"><button>Settings</button></a>
+		<p></p>
+		<a href = "all.html"><button>All Shitposts</button></a>
+		<p></p>
+		<h1>Shitposts</h1>
+		<div id = "main">
+			<h2>Latest Shitposts: </h2>
+			<span id = "latest">
+			</span>
+			<h2>Trending Shitposts: </h2>
+			<span id = "trending">
+			</span>
+		</div>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+	</body>
+	<script src = main.js></script>
+	<style>
+		button {
+            cursor: pointer;
+		}
+
+		body {
+            font-family: 'Gowun Dodum', sans-serif;
+			background-color: #232527;
+			color: white;
+		}
+
+		h1 {
+			text-align: center;
+		}
+		span {
+			display: flex;
+			flex-direction: row;
+		}
+		.meme {
+			border: 1px solid cornflowerblue;
+			width: 17vw;
+			height: 17vw;
+            transition: all .2s ease-in-out;
+			margin-left: 0.5vw;
+		}
+
+		.meme:hover {
+            transform: scale(1.02);
+		}
+
+
+		#main {
+			margin-left: 8vw;
+		}
+
+	</style>
+</html>

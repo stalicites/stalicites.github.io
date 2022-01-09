@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+			https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-storage.js"></script>
+        <script src="base.js"></script>
+    </head>
+    <body>
+
+    </body>
+    <style>
+        body {
+            background-color: #232527;
+            text-align: center;
+        }
+        .meme {
+            border: 1px solid cornflowerblue;
+            width: 17vw;
+            height: 17vw;
+            transition: all .2s ease-in-out;
+            margin-left: 0.5vw;
+            margin-bottom: 0.5vw;
+        }
+
+        .meme:hover {
+            transform: scale(1.02);
+        }
+
+    </style>
+    <script>
+
+        memes.on("value", getData, err);
+
+        function getData(data) {
+            let s = Object.values(data.val())
+            for (let i = s.length - 1; i >= 0; i--) {
+                loadMeme(s[i]);
+            }
+        }
+
+        function err(er) {
+            console.log(er)
+        }
+
+        function loadMeme(data) {
+            let a = document.createElement("a");
+            let img = document.createElement("img");
+            img.className = "meme"
+            a.href = "meme.html?=" + data.id;
+            a.appendChild(img);
+            document.body.appendChild(a);
+            img.src = data.img;
+        }
+    </script>
+</html>

@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>M</title>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-storage.js"></script>
+        <script src="base.js"></script>
+    </head>
+    <body>
+        <div>
+            <h1>Create An Account</h1>
+            <input type="email" id = "eml" placeholder="Username">
+            <p></p>
+            <input type="password" id = "pwd" placeholder="Password">
+            <p id = "error"></p>
+            <p>Already have an account? <a href = "log-in.html">Log In.</a></p>
+            <button onclick = "createAccount()">Confirm</button>
+        </div>
+    </body>
+    <script src = "create-an-account.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+    <style>
+        body {
+            text-align: center;
+            font-family: 'Gowun Dodum', sans-serif;
+            margin-left: 25%;
+            background-color: #232527;
+        }
+
+        a {
+            color: red;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        p {
+            font-size: 1vw;
+        }
+
+        button {
+            width: 9vw;
+            height: 3vw;
+            font-family: 'Gowun Dodum', sans-serif;
+            font-size: 1vw;
+            background-color: cornflowerblue;
+            border-radius: 5px;
+            border-width: 0;
+            cursor: pointer;
+            transition: all .2s ease-in-out;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+            background-color: #3e6498;
+        }
+
+        h1 {
+            font-size: 3vw;
+        }
+
+        input {
+            width: 16vw;
+            height: 2.5vw;
+            font-family: 'Gowun Dodum', sans-serif;
+            padding: 1%;
+            border-radius: 5px;
+            border-width: 0px;
+            cursor: pointer;
+        }
+
+        div {
+            background-color: #363c3d;
+            width: 50vw;
+            height: 30vw;
+            border-radius: 10px;
+        }
+
+        #error {
+            color: red;
+        }
+
+    </style>
+    <link rel="stylesheet" href="button.css">
+</html>

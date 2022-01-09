@@ -1,0 +1,117 @@
+<html>
+	<head>
+		<title>Meme</title>
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+			https://firebase.google.com/docs/web/setup#available-libraries -->
+		<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-storage.js"></script>
+		<script src="base.js"></script>
+	</head>
+	<body>
+		<h1 id = "title"></h1>
+		<p>By: <a id = "user"></a></p>
+		<div id = "c">
+			<img id = 'meme' src = "">
+		</div>
+		<div class = "flex-col">
+			<div class = 'flex' id = "s">
+				<button id = "likeButton" class = "heart"></button>
+				<p id = "heartAmount"></p>
+			</div>
+		</div>
+		<div id = "de">
+			<p id = "desc"></p>
+		</div>
+	</body>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+	<style>
+		img {
+			border: 2px solid black;
+			margin: 1vw;
+		}
+
+		#desc {
+			text-align: center;
+            padding: 0;
+            margin: 0;
+		}
+
+		#de {
+			text-align: center;
+			padding: 0;
+			margin: 0;
+		}
+
+		#heartAmount {
+			font-size: 30px;
+			margin-top: 1vh;
+		}
+
+		.flex {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			text-align: center;
+			height: 150px;
+		}
+
+        .heart {
+            background-color: red;
+            display: inline-block;
+			border-width: 0;
+            height: 30px;
+            margin: 0 10px;
+            position: relative;
+            top: 0;
+            transform: rotate(-45deg);
+            width: 30px;
+        }
+
+        .heart:before,
+        .heart:after {
+            content: "";
+            background-color: red;
+            border-radius: 50%;
+            height: 30px;
+            position: absolute;
+            width: 30px;
+        }
+
+        .heart:before {
+            top: -15px;
+            left: 0;
+        }
+
+        .heart:after {
+            left: 15px;
+            top: 0;
+        }
+
+		body {
+			text-align: center;
+			background-color: #232527;
+			color: white;
+            font-family: 'Gowun Dodum', sans-serif;
+		}
+
+		#s {
+			height: 75px;
+		}
+
+		p {
+			font-size: 20px;
+		}
+		h1 {
+			font-size: 45px;
+		}
+
+	</style>
+	<script src = 'meme.js'></script>
+</html>

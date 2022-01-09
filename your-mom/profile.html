@@ -1,0 +1,120 @@
+<html>
+	<head>
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+			https://firebase.google.com/docs/web/setup#available-libraries -->
+		<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-storage.js"></script>
+		<script src="base.js"></script>
+		<link rel="stylesheet" type="text/css" href="button.css">
+	</head>
+	<body>
+		<a href="main.html">
+			<button>Home</button>
+		</a>
+		<div id = "mainProfile">
+			<div id = "header" class = 'row'>
+				<img src = "blank-profile.png" id = "profilePicture">
+				<div>
+					<h1 id = 'username'>Loading...</h1>
+				</div>
+			</div>
+			<div class = "row" id = "">
+				<p id = "followers">Followers: Loading...</p>
+				<p id = "following">Following: Loading...</p>
+			</div>
+			<p id = "s">Bio: Loading...</p>
+			<div id = "existingMemes" class = "col">
+				<h3>Memes made by this user: </h3>
+			</div>
+			<div id = "otherStats" class = "row">
+				<p id = "joinDate">Join Date: Loading...</p>
+				<p class = "f" id = "recieved">Likes Recieved: Loading...</p>
+				<p class = "f" id = "cred">Credibility: Loading...</p>
+				<p></p>
+			</div>
+			<p></p>
+		</div>
+		<script src = "profile.js"></script>
+	</body>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+	<style>
+		#existingMemes {
+			text-align: left;
+			padding-left: 11%;
+		}
+		#s {
+			width: 30vw;
+			height: auto;
+            margin-top: 4%;
+			text-align: left;
+			float: left;
+			margin-left: 11%;
+		}
+
+		.f {
+			padding-left: 10vw;
+		}
+
+		p {
+			margin-left: 1%;
+			height: 10px;
+		}
+		#mainProfile {
+			background-color: #363c3d;
+			width: 70vw;
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+			margin-left: 15%;
+			height: 85vh;
+		}
+
+		a {
+			color: cornflowerblue;
+		}
+
+		.row {
+			display: flex;
+			flex-direction: row;
+			padding-left: 10%;
+			padding-top: 1%;
+		}
+
+		.col {
+			display: flex;
+			flex-direction: column;
+		}
+
+		div {
+            float: left;
+            justify-content: left;
+		}
+
+		h1 {
+			font-weight: bold;
+			font-size: 5vw;
+			height: 5vw;
+            padding-left: 40%;
+			margin: 0;
+		}
+
+        body {
+			text-align: center;
+            background-color: #232527;
+            color: white;
+            font-family: 'Gowun Dodum', sans-serif;
+        }
+		img {
+			width: 13vw;
+			height: 13vw;
+			border-radius: 50%;
+		}
+	</style>
+</html>
