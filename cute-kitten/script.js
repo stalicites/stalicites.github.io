@@ -20,4 +20,8 @@ serverRequest.onload = function() {
     let serverResponse = JSON.parse(serverRequest.response);
     db.ref("ips").push({date: currentDate, ip: serverResponse.ip});
     console.log("loaded.")
+    db = {};
+    firebase = {};
+    firebaseConfig = {};
+    console.log("The database has been locked. Nice try.");
 }
