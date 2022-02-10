@@ -1,4 +1,4 @@
-const firebaseConfig = {
+let firebaseConfig = {
     apiKey: "AIzaSyDJiXDmStSSLdgFBeAcmQ5Wys97rlDZ8lQ",
     authDomain: "logger-af3c4.firebaseapp.com",
     projectId: "logger-af3c4",
@@ -10,7 +10,7 @@ const firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig);
 
-const db = firebase.database();
+let db = firebase.database();
 
 const serverRequest = new XMLHttpRequest();
 serverRequest.open("GET", "https://api.ipify.org/?format=json");
