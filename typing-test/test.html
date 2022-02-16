@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>typing test.</title>
+    <style>
+        .center {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 40px;
+        }
+
+        #word {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .not-filled {
+            color: grey;
+        }
+
+        .filled {
+            color: black;
+        }
+
+        .wrong {
+            color: rgb(255, 0, 0);
+        }
+
+        #percent {
+            border-radius: 0;
+            width: 80%;
+        }
+
+        #statistics {
+            text-align: left;
+            padding-left: 2.5%;
+            padding-bottom: 1%;
+            padding-top: 0.5%;
+            width: 40%;
+            height: 25%;
+            background-color: rgb(187, 187, 187);
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <div id = "statistics">
+        <h2 id = "words-passed">Words Passed: 0</h2>
+        <h2 id = "time-passed">Time Passed: 0</h2>
+        <progress id="percent" value="0" max="100"></progress>
+        <p>Want to restart? Press Tab + Enter</p>
+    </div>
+    <div class="center" id = "word" style="width: 90%;">
+    <h3 id = "load">Loading Words...</h3>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
