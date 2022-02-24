@@ -157,11 +157,7 @@ const game = document.getElementById("game");
  	  text(main.content, game.width / 2, game.height / 2, main.textColor, game.width / 1.5);
  	  text("Click to play.", game.width / 2, game.height / 2 + 80, main.textColor, game.width);
  	  display.font = "40px Verdana"
-    drawRect(game.width / 2 - game.width / 1.5, game.height / 2, 40, 40, gameData.beatColor2);
-    drawRect(game.width / 2 + game.width / 1.5, game.height / 2, 40, 40, gameData.beatColor2);
     display.font = "60px Verdana"
-    drawRect(game.width / 2 - 445, game.height / 2 - 40, 100, 100, "rgb(0, 0, 0, 0)", gameData.beatColor2);
-    drawRect(game.width / 2 + 350, game.height / 2 - 40, 100, 100, "rgb(0, 0, 0, 0)", gameData.beatColor2);
     text("<", game.width / 2 - 400, game.height / 2 + 30, main.textColor, game.width / 2);
     text(">", game.width / 2 + 400, game.height / 2 + 30, main.textColor, game.width / 2);
     
@@ -186,7 +182,6 @@ const game = document.getElementById("game");
  	display.font = "20px Verdana";
  	display.textAlign = "left"
  	if (localStorage[sn] === undefined) {
- 		console.log("It\'s null!")
  		text("No highscore found :(", 20, 40, main.textColor, game.width);
  	} else {
  		let score = localStorage.getItem(sn);
