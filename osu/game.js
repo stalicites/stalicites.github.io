@@ -157,7 +157,7 @@
       }
       if (e.keyCode == 81) {
         if (paused || ended) {
-          window.location = "/";
+          window.location = "osu/";
         }
       }
     }
