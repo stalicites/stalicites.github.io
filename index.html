@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;300&display=swap" rel="stylesheet">
+    <style>
+        canvas {
+            width: 100%;
+            height: 100%;
+        }
+
+        
+        body {
+            overflow-y: hidden;
+            background-color: #2e2e2e;
+        }
+
+        * {
+            font-family: 'Jost', sans-serif;
+            color: white;
+        }
+
+        .content {
+            z-index: 99999999;
+            position: absolute;
+            left: 50%;
+            top: 40%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+
+        h1 {
+            font-size: 6.5vw;
+            text-align: center;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        button {
+            width: 10vw;
+            height: 3vw;
+            background-color: #2e2e2e;
+            border: 2px solid rgba(64, 118, 255, 0.9);
+            margin-right: 2vw;
+            cursor: pointer;
+            font-size: 1.25vw;
+            transition: 0.5s;
+        }
+
+        button:hover {
+            background-color: rgba(64, 118, 255, 0.9);
+        }
+
+
+    </style>
+</head>
+<body>
+    <canvas id = "bg"></canvas>
+    <div class="content">
+        <h1>Stalicites</h1>
+        <div class="row">
+            <button>Links</button>
+            <button>Projects</button>
+            <button>About Me</button>
+            <button>Tutorials</button>
+        </div>
+    </div>
+</body>
+<script src="background.js"></script>
+</html>
