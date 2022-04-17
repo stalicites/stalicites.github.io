@@ -48,4 +48,15 @@
 </body>
 <script src = "script.js"></script>
 <script src="render.js"></script>
+<script type="text/javascript">
+    // service worker init
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/service_worker.js')
+                .then((reg) => {
+                console.log('Service worker registered.', reg);
+                });
+        });
+    }
+</script>
 </html>
