@@ -52,7 +52,7 @@
     // service worker init
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-            navigator.serviceWorker.register('projects/maze-game/service_worker.js')
+            navigator.serviceWorker.register('service_worker.js')
                 .then((reg) => {
                 console.log('Service worker registered.', reg);
                 });
