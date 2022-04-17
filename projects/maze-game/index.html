@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src = "socket.io.js"></script>
+    <style>
+        #container {
+            position: absolute;
+            left: 50%;
+            top: 45%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+
+        input {
+            border: 2px solid black;
+        }
+
+        * {
+            font-family: arial,helvetica,sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div style="display: flex; flex-direction: row;" id = "container">
+        <div>
+            <canvas id = "canvas" width="700" ; height="700"></canvas>
+            <br>
+            <button onclick='connection.emit("dir", "up")'>Up</button>
+            <button onclick='connection.emit("dir", "down")'>Down</button>
+            <button onclick='connection.emit("dir", "left")'>Left</button>
+            <button onclick='connection.emit("dir", "right")'>Right</button>
+            <div style = "float: right;">
+                <input type="text" placeholder="Set your username" id = "input">
+                <button onclick='connection.emit("name-change", document.getElementById("input").value)'>Set</button>
+            </div>
+        </div>
+        <div>
+            <div style="height: 680px; width: 400; background-color: #eee; padding: 2%; overflow-y: scroll;" id = "messages">
+                <h1 style="position: sticky;">Chat Room</h1>
+            </div>
+            <input type="text" placeholder="Say something!" style = "width: 400px; margin-top: 2%" id = "text">
+        </div>
+    </div>
+</body>
+<script src = "script.js"></script>
+<script src="render.js"></script>
+</html>

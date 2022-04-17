@@ -1,0 +1,21 @@
+{
+    "name": "Online maze game!",
+    "short_name": "Online maze!",
+    "start_url": "/",
+    "theme_color": "#fff",
+    "background_color": "#fff",
+    "description": "An online multiplayer randomly generated maze game! Race against others to see who can finish first.",
+    "orientation": "portrait",
+    "display": "standalone",
+    "categories": ["online game", "maze", "maze game", "online maze game"],
+    "icons": [
+        {
+            "src": "icon.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+    "screenshots": [],
+    "shortcuts": [],
+    "scope": "/"
+}
