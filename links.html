@@ -1,61 +1,90 @@
-<html>
-    <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
-        <title>links.</title>
-        <style>
-            * {
-                font-family: 'Comfortaa', cursive;
-            }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;300&display=swap" rel="stylesheet">
+    <style>
+        canvas {
+            width: 100%;
+            height: 100%;
+        }
 
+        body {
+            overflow-y: hidden;
+            background-color: #2e2e2e;
+        }
 
-            .center {
-                position: absolute;
-                left: 50%;
-                top: 45%;
-                -webkit-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
-            }
+        * {
+            font-family: 'Jost', sans-serif;
+            color: white;
+        }
 
-            button {
-                width: 300px;
-                height: 80px;
-                margin-left: 2%;
-                background-color: rgb(0, 217, 255);
-                border: 1.5px solid rgb(56, 205, 255);
-                cursor: pointer;
-                display: inline-block;
-                margin-bottom: 10%;
-            }
+        .content {
+            z-index: 99999999;
+            position: absolute;
+            left: 50%;
+            top: 40%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
+            width: 20vw;
+        }
 
-           .hover {
-                color: #000;
-                background-image: -webkit-linear-gradient(30deg, white 50%, transparent 50%);
-                background-image: linear-gradient(30deg, white 50%, transparent 50%);
-                background-size: 1000px;
-                background-repeat: no-repeat;
-                background-position: 0%;
-                -webkit-transition: background 700ms ease-in-out;
-                transition: background 700ms ease-in-out;
-           }
+        h1 {
+            font-size: 6.5vw;
+            text-align: center;
+        }
 
-           .hover:hover {
-                background-position: 100%;
-                color: #fff;
-           }
+        .col {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
 
-        </style>
-    </head>
-    <body>
-        <div class="center">
-            <a href="https://www.chess.com/member/qa277"><button class="hover">Chess.com</button></a>
-            <p></p>
-            <a href="https://discord.com/users/604390222515404813/"><button class="hover">Discord</button></a>
-            <p></p>
-            <a href="https://github.com/stalicites"><button class="hover">Github</button></a>
-            <p></p>
-            <a href="https://www.youtube.com/channel/UCsqZPeAWBCOJZ7WL5NZXAPA"><button class="hover">YouTube</button></a>
+        button {
+            width: 20vw;
+            height: 6vw;
+            background-color: #2e2e2e;
+            border: 2px solid rgba(64, 118, 255, 0.9);
+            margin-right: 2vw;
+            cursor: pointer;
+            font-size: 2.5vw;
+            transition: 0.5s;
+            margin-top: 1vw;
+            padding: 0%;
+        }
+
+        button:hover {
+            background-color: rgba(64, 118, 255, 0.9);
+        }
+        a {
+            font-size: 1vw;
+            transition: 0.5s;
+            width: 20vw;
+        }
+        a:hover {
+            color: rgb(117, 117, 255);
+        }
+    </style>
+</head>
+<body>
+    <canvas id = "bg"></canvas>
+    <div class="content">
+        <h1>Links</h1>
+        <div class="col">
+            <a href="https://discord.com/users/604390222515404813/" target = "_blank"><button>Discord</button></a>
+            <a href="https://www.chess.com/member/qa277" target = "_blank"><button>Chess.com</button></a>
+            <a href="https://github.com/stalicites" target = "_blank"><button>Github</button></a>
+            <a href="https://www.youtube.com/channel/UCsqZPeAWBCOJZ7WL5NZXAPA" target = "_blank"><button>YouTube</button></a>
+            <a href="../" style = "text-align: center;">Go back</a>
         </div>
-    </body>
+    </div>
+</body>
+<script src="projects/background.js"></script>
 </html>
