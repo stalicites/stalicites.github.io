@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;300&display=swap" rel="stylesheet">
+    <style>
+        p, a, img, h2 {
+            animation: fadeIn linear 2s;
+            -webkit-animation: fadeIn linear 2s;
+            -moz-animation: fadeIn linear 2s;
+            -o-animation: fadeIn linear 2s;
+            -ms-animation: fadeIn linear 2s;
+        }
+
+        @keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+        }
+
+        @-moz-keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+        }
+
+        @-webkit-keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+        }
+
+        @-o-keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+        }
+
+        @-ms-keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+        }
+        canvas {
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            position: sticky;
+        }
+
+        body {
+            background-color: #2e2e2e;
+        }
+
+        * {
+            font-family: 'Jost', sans-serif;
+            color: white;
+        }
+
+        .content {
+            position: absolute;
+            left: 50%;
+            top: 40%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            width: 100vw;
+            overflow-y: scroll;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 4vw;
+            text-align: center;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 2vh;
+        }
+
+        button {
+            width: 10vw;
+            height: 3vw;
+            background-color: #2e2e2e;
+            border: 2px solid rgba(64, 118, 255, 0.9);
+            margin-right: 2vw;
+            cursor: pointer;
+            font-size: 1.25vw;
+            transition: 0.5s;
+        }
+
+        button:hover {
+            background-color: rgba(64, 118, 255, 0.9);
+        }
+
+        img {
+            width: 16vw;
+            height: 48/5vw;
+        }
+
+        .projects {
+            border: 2px dashed rgba(64, 118, 255, 0.9);
+            padding: 3%;
+            margin-left: 2vw;
+            margin-right: 2vw;
+            float: left;
+        }
+
+        img {
+            border: 1px dashed rgba(64, 118, 255, 0.9);
+        }
+
+        .none {
+            color: white;
+        }
+
+        .dependent {
+            color: #00ff00;
+        }
+
+        .col {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        ::-webkit-scrollbar {
+            width: 0;
+        }
+    </style>
+</head>
+<body>
+    <canvas id = "bg"></canvas>
+    <div class="content">
+        <div class="col" style = "margin-top: 15vh;">
+            <h1>My projects</h1>
+            <div class="row">
+                <div class="projects">
+                    <h2>Online Maze Game</h2>
+                    <img src="online-maze-game.png" alt="online maze game">
+                    <p class="none">Dependencies: <a href="https://socket.io/" class="dependent">Socket.io</a> <a href="https://nodejs.org/" class="dependent">Node.js</a></p>
+                    <p class="none">Collaborators: None</p>
+                    <a target = "_blank" href="https://stalicites.tech/projects/maze-game"><button>Visit</button></a>
+                </div>
+                <div class="projects">
+                    <h2>Cube Anarchy</h2>
+                    <img src="cube-anarchy.png" alt="react chat">
+                    <p class="none">Dependencies: <a href="https://socket.io/" class="dependent">Socket.io</a> <a href="https://nodejs.org/" class="dependent">Node.js</a></p>
+                    <p>Collaborators: None</p>
+                    <a target = "_blank" href="https://cube-anarchy.herokuapp.com/"><button>Visit</button></a>
+                </div>
+                <div class="projects">
+                    <h2>Typing Test</h2>
+                    <img src="typing-test.png" alt="...">
+                    <p class="none">Dependencies: None</p>
+                    <p class="none">Collaborators: None</p>
+                    <a target = "_blank" href="https://stalicites.tech/typing-test/"><button>Visit</button></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="projects">
+                    <h2>osu! recreation</h2>
+                    <img src="osu-thumbnail.png" alt="osu! thumbnail">
+                    <p class="none">Dependencies: <a href="https://socket.io/" class="dependent">Socket.io</a></p>
+                    <p class="none">Collaborators: None</p>
+                    <a target = "_blank" href="https://stalicites.tech/osu/"><button>Visit</button></a>
+                </div>
+                <div class="projects">
+                    <h2>React Chat App</h2>
+                    <img src="react-firebase-chat.png" alt="react chat">
+                    <p class="dependent">Dependencies: <a href="https://socket.io/" class="dependent">Socket.io</a></p>
+                    <p class = "dependent">Collaborators: <a href="https://impixel.tech/">IMPixel</a></p>
+                    <a target = "_blank" href="https://fds0be.csb.app/"><button>Visit</button></a>
+                </div>
+                <div class="projects">
+                    <h2>Hell</h2>
+                    <img src="../placeholder.png" alt="hell">
+                    <p class="dependent">Dependencies: <a href="https://socket.io/" class="dependent">Socket.io</a> <a href="https://nodejs.org/" class="dependent">Node.js</a></p>
+                    <p>Collaborators: None</p>
+                    <button>In development</button>
+                </div>
+            </div>
+        </div>
+        <a href="../" style="margin-left: 2vw">Go back.</a>
+</body>
+<script src="../snow.js"></script>
+<script src="projects.js"></script>
+</html>
