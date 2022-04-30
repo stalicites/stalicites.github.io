@@ -1,80 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>yes</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;300&display=swap" rel="stylesheet">
-    <style>
-        canvas {
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            position: absolute;
-        }
-
-        body {
-            background-color: #2e2e2e;
-        }
-
-        * {
-            font-family: 'Jost', sans-serif;
-            color: white;
-        }
-
-        .content {
-            z-index: 99999999;
-            position: absolute;
-            left: 50%;
-            top: 40%;
-            -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-        }
-
-        h1 {
-            font-size: 6.5vw;
-            text-align: center;
-        }
-
-        .row {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-        }
-
-        button {
-            width: 10vw;
-            height: 3vw;
-            background-color: #2e2e2e;
-            border: 2px solid rgba(64, 118, 255, 0.9);
-            margin-right: 2vw;
-            cursor: pointer;
-            font-size: 1.25vw;
-            transition: 0.5s;
-        }
-
-        button:hover {
-            background-color: rgba(64, 118, 255, 0.9);
-        }
-
-
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>stalicites</title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
 </head>
 <body>
-    <canvas id = "bg"></canvas>
-    <div class="content">
-        <h1>Stalicites</h1>
-        <div class="row">
-            <a href="links"><button>Links</button></a>
-            <a href="/projects/"><button>Projects</button></a>
-            <a href=""><button>About Me</button></a>
-            <a href=""><button>Tutorials</button></a>
-        </div>
-    </div>
+  <div id = "background"></div>
+  <div class="content">
+    <h1 id = "header"></h1>
+    <p id = "status">Horrible web dev</p>
+    <span>
+        <a href="https://github.com/stalicites" class="button arrow" target="_blank">Github</a>
+        <a href="https://discord.com/users/604390222515404813/" class="button arrow" target="_blank">Discord</a>
+        <a href="https://chess.com/member/qa277" class="button arrow" target="_blank">Chess.com</a>
+    </span>
+  </div>
 </body>
-<script src="background.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+<script src = "script.js"></script>
 </html>
