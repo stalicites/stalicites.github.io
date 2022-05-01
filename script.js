@@ -14,7 +14,7 @@ VANTA.GLOBE({
   })
   
   const header = document.getElementById("header");
-  const headerText = "STALICITES";
+  const headerText = "TALICITES";
   let index = 0;
   
   setInterval(function() {
