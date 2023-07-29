@@ -1,0 +1,369 @@
+{
+    "rims": {
+        "spinner": {
+            "value": 7.75
+        },
+        "void": {
+            "value": 4.75  
+        },
+        "rtx": {
+            "value": 2  
+        },
+        "snowface": {
+            "value": 0.6  
+        },
+        "snowflake": {
+            "value": 0.8
+        },
+        "brickset": {
+            "value": 0.625
+        },
+        "hypno": {
+            "value": 0.75
+        },
+        "bull": {
+            "value": 0.25  
+        },
+        "nemesis": {
+            "value": 0.125  
+        },
+        "icicle": {
+            "value": 0.5 
+        },
+        "planetary": {
+            "value": 0.3  
+        }
+    },
+    "colors": {
+        "hyper red lvl 1": {
+            "value": 0.085
+        },
+        "hyper red lvl 2": {
+            "value": 0.25
+        },
+        "hyper red lvl 3": {
+            "value": 3.5
+        },
+        "hyper red lvl 4": {
+            "value": 13.0
+        },
+        "hyper red lvl 5": {
+            "value": 29.0
+        },
+        "hyper green lvl 1": {
+            "value": 0.08
+        },
+        "hyper green lvl 2": {
+            "value": 0.2
+        },
+        "hyper green lvl 3": {
+            "value": 3
+        },
+        "hyper green lvl 4": {
+            "value": 11
+        },
+        "hyper green lvl 5": {
+            "value": 24
+        },
+        "hyper blue lvl 1": {
+            "value": 0.08
+        },
+        "hyper blue lvl 2": {
+            "value": 0.2
+        },
+        "hyper blue lvl 3": {
+            "value": 2.75
+        },
+        "hyper blue lvl 4": {
+            "value": 12.5
+        },
+        "hyper blue lvl 5": {
+            "value": 30.5
+        },
+        "hyper pink lvl 1": {
+            "value": 0.07
+        },
+        "hyper pink lvl 2": {
+            "value": 0.175
+        },
+        "hyper pink lvl 3": {
+            "value": 2
+        },
+        "hyper pink lvl 4": {
+            "value": 6.25
+        },
+        "hyper pink lvl 5": {
+            "value": 13
+        },
+        "hyper diamond lvl 1": {
+            "value": 0.065
+        },
+        "hyper diamond lvl 2": {
+            "value": 0.175
+        },
+        "hyper diamond lvl 3": {
+            "value": 1.75
+        },
+        "hyper diamond lvl 4": {
+            "value": 6
+        },
+        "hyper diamond lvl 5": {
+            "value": 12
+        },
+        "hyper orange lvl 1": {
+            "value": 0.055
+        },
+        "hyper orange lvl 2": {
+            "value": 0.15
+        },
+        "hyper orange lvl 3": {
+            "value": 1.25
+        },
+        "hyper orange lvl 4": {
+            "value": 4
+        },
+        "hyper orange lvl 5": {
+            "value": 10
+        },
+        "hyper purple lvl 1": {
+            "value": 0.06
+        },
+        "hyper purple lvl 2": {
+            "value": 0.17
+        },
+        "hyper purple lvl 3": {
+            "value": 1.5
+        },
+        "hyper purple lvl 4": {
+            "value": 5.5
+        },
+        "hyper purple lvl 5": {
+            "value": 11
+        },
+        "hyper yellow lvl 1": {
+            "value": 0.05
+        },
+        "hyper yellow lvl 2": {
+            "value": 0.13
+        },
+        "hyper yellow lvl 3": {
+            "value": 0.75
+        },
+        "hyper yellow lvl 4": {
+            "value": 3.25
+        },
+        "hyper yellow lvl 5": {
+            "value": 7.5
+        },
+        "vantablack": {
+            "value": 2.25
+        },
+        "gold": {
+            "value": 0.25
+        }
+    },
+    "spoilers": {
+        "thrusters": {
+            "value": 4.5
+        },
+        "2 billion": {
+            "value": 1.4
+        },
+        "brickset": {
+            "value": 1
+        },
+        "clickbait": {
+            "value": 0.25
+        },
+        "dual rockets": {
+            "value": 0.25
+        },
+        "ufo": {
+            "value": 0.125
+        },
+        "3 billion": {
+            "value": 0.125
+        },
+        "velocity": {
+            "value": 0.25
+        },
+        "tiki torch": {
+            "value": 0.25
+        },
+        "volt wing": {
+            "value": 0.375
+        }
+    },
+    "textures": {
+        "checkers": {
+            "value": 3.5
+        },
+        "snowstorm": {
+            "value": 1
+        },
+        "fire": {
+            "value": 0.6
+        },
+        "galactic carbon": {
+            "value": 0.4
+        },
+        "drip": {
+            "value": 0.565
+        },
+        "pixel": {
+            "value": 0.125
+        },
+        "armor": {
+            "value": 0.35
+        },
+        "wavy": {
+            "value": 0.1
+        },
+        "gulf": {
+            "value": 0.075
+        },
+        "orange pixel": {
+            "value": 0.175
+        },
+        "blue pixel": {
+            "value": 0.2
+        },
+        "winter camo": {
+            "value": 0.25
+        }
+    },
+    "vehicles": {
+        "torpedo": {
+            "value": 5.75
+        },
+        "beam": {
+            "value": 5
+        },
+        "arachnid": {
+            "value": 4
+        },
+        "icebreaker": {
+            "value": 3.15
+        },
+        "beignet": {
+            "value": 2.5
+        },
+        "celsior": {
+            "value": 2.25
+        },
+        "banana": {
+            "value": 1.5
+        },
+        "raptor": {
+            "value": 1.45
+        },
+        "crew": {
+            "value": 1.4
+        },
+        "javelin": {
+            "value": 1.125
+        },
+        "proto 08": {
+            "value": 1.25
+        },
+        "brulee": {
+            "value": 1
+        },
+        "jb8": {
+            "value": 0.75
+        },
+        "m12": {
+            "value": 0.5
+        },
+        "volt 4x4": {
+            "value": 0.4
+        },
+        "macaron": {
+            "value": 0.375
+        },
+        "parisian": {
+            "value": 0.3
+        },
+        "torero": {
+            "value": 0.25
+        },
+        "goliath": {
+            "value": 0.25
+        },
+        "shogun": {
+            "value": 0.25
+        },
+        "rattler": {
+            "value": 0.25
+        },
+        "bandit": {
+            "value": 0.25
+        },
+        "agent": {
+            "value": 0.2
+        },
+        "airtail": {
+            "value": 0.15
+        },
+        "snake": {
+            "value": 0.125
+        },
+        "bloxy": {
+            "value": 0.125
+        },
+        "tiny toy": {
+            "value": 0.1
+        },
+        "volt": {
+            "value": 0.1
+        },
+        "trailblazer": {
+            "value": 0.1
+        },
+        "drone": {
+            "value": 0.1
+        },
+        "black hawk": {
+            "value": 0.1
+        },
+        "jet": {
+            "value": 0.1
+        },
+        "monster truck": {
+            "value": 0.1
+        },
+        "megalodon": {
+            "value": 0.1
+        },
+        "shell classic": {
+            "value": 0.1
+        },
+        "jack rabbit": {
+            "value": 0.1
+        },
+        "suv": {
+            "value": 0.04
+        },
+        "posh": {
+            "value": 0.05
+        },
+        "classic": {
+            "value": 0.025
+        },
+        "mighty": {
+            "value": 0.02
+        },
+        "steed": {
+            "value": 0.025
+        },
+        "roadster": {
+            "value": 0.06
+        },
+        "eclaire": {
+            "value": 0.05
+        },
+        "concept": {
+            "value": 0.25
+        }
+    }
+}
