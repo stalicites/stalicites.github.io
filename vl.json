@@ -245,6 +245,9 @@
         },
         "winter camo": {
             "value": 0.25
+        },
+        "flaming": {
+            "value": 0.075
         }
     },
     "vehicles": {
@@ -382,6 +385,14 @@
         },
         "poseidon": {
             "value": 0.25
+        }
+    },
+    "tires": {
+        "red 50": {
+            "value": 0.25
+        },
+        "blue 50": {
+            "value": 0.75
         }
     }
 }
