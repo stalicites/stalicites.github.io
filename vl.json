@@ -181,6 +181,9 @@
         "brickset spoiler": {
             "value": 1
         },
+        "cash spitters": {
+            "value": 0.125  
+        },
         "clickbait": {
             "value": 0.25
         },
