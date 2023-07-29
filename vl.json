@@ -155,6 +155,15 @@
         "hyper yellow lvl 5": {
             "value": 7.5
         },
+        "duped hypershift": {
+            "value": 42
+        },
+        "clean hypershift": {
+            "value": 156
+        },
+        "og hypershift": {
+            "value": 168
+        },
         "vantablack": {
             "value": 2.25
         },
