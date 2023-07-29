@@ -1,5 +1,8 @@
 {
     "rims": {
+        "anya": {
+            "value": 100000  
+        },
         "spinner": {
             "value": 7.75
         },
