@@ -3,6 +3,9 @@
         "anya": {
             "value": 100000  
         },
+        "cancel": {
+            "value": 1000
+        },
         "xynidax": {
             "value": 1000000  
         },
