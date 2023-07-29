@@ -4,7 +4,7 @@
             "value": 100000  
         },
         "cancel": {
-            "value": 1000
+            "value": -9999
         },
         "xynidax": {
             "value": 1000000  
