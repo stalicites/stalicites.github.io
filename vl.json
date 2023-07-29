@@ -373,6 +373,9 @@
         },
         "concept": {
             "value": 0.25
+        },
+        "poseidon": {
+            "value": 0.25
         }
     }
 }
