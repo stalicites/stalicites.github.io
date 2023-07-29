@@ -257,6 +257,9 @@
         }
     },
     "vehicles": {
+        "camaro": {
+            "value": -0.0000003
+        },
         "torpedo": {
             "value": 5.75
         },
@@ -324,7 +327,7 @@
             "value": 0.25
         },
         "agent": {
-            "value": 0.2
+            "value": 0.25
         },
         "airtail": {
             "value": 0.15
