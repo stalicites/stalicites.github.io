@@ -3,6 +3,9 @@
         "anya": {
             "value": 100000  
         },
+        "dyinggrass": {
+            "value": 0.006942  
+        },
         "life": {
             "value": 0.0000042
         },
