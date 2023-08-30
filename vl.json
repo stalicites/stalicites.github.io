@@ -4,7 +4,7 @@
             "value": 0.0000001
         },
         "dyinggrass": {
-            "value": 0.006942  
+            "value": 0.0080085
         },
         "life": {
             "value": 0.0000042
@@ -21,10 +21,10 @@
     },
     "textures": {        
         "Aquatic": {
-            "value": 0.03
+            "value": 0.02 
         },
         "Manga": {
-            "value": 0.05 
+            "value": 0.05  
         },
         "Touchdown": {
             "value": 0.025 
@@ -33,7 +33,7 @@
             "value": 0.04
         },
         "Camo Radar": {
-            "value": 0.04
+            "value": 0.04 
         },
         "Carbon Fire": {
             "value": 0.01  
@@ -48,13 +48,13 @@
             "value": 0.05 
         },
         "Superstar": {
-            "value": 0.04
+            "value": 0.04  
         },
         "Old Town": {
             "value": 0.125 
         },
         "Circuit": {
-            "value": 0.08 
+            "value": 0.08  
         },
         "Black ice": {
             "value": 0.225 
@@ -131,6 +131,9 @@
         "Wavy": {
             "value": 0.1
         },
+        "Berlin Graffiti": {
+            "value": 0.0450
+        },
         "Gulf": {
             "value": 0.05
         },
@@ -176,7 +179,7 @@
             "value": 0.0015
         },
         "Japanese": {
-            "value": 0.045
+            "value": 0.06
         },
         "Speed tires": {
             "value": 0.0075
@@ -187,8 +190,11 @@
         "3Billion tires": {
             "value": 0.07
         },
+        "FlagsOfEurope": {
+            "value": 0.015
+        },
         "Reds3": {
-            "value": 0.1
+            "value": 0.08
         },
         "Blues3": {
             "value": 0.125
@@ -247,6 +253,15 @@
         },
         "Spyglass": {
             "value": 0.025
+        },
+        "BelgianWaffle": {
+            "value": 0.025
+        },
+        "UKHeritage": {
+            "value": 0.03
+        },
+        "EuroCloverLeaf": {
+            "value": 0.045
         },
         "Beachball": {
             "value": 0.035
@@ -430,6 +445,9 @@
         "cash spitters": {
             "value": 0.25
         },
+        "ColorsOfItaly": {
+            "value": 0.05
+        },
         "clickbait": {
             "value": 0.25
         },
@@ -556,7 +574,7 @@
         "Snow Log": {
             "value": 0.045
         },
-        "Turner": {
+        "Tuner": {
             "value": 0.05
         },
         "Deathtrap": {
@@ -592,7 +610,7 @@
             "value": -0.0000003
         },
         "torpedo": {
-            "value": 5.5
+            "value": 5.2
         },
         "beam": {
             "value": 5
@@ -601,7 +619,7 @@
             "value": 4
         },
         "icebreaker": {
-            "value": 3.5
+            "value": 3.6
         },
         "beignet": {
             "value": 2.5
@@ -610,10 +628,10 @@
             "value": 2.25
         },
         "banana": {
-            "value": 1.5
+            "value": 1.55
         },
         "raptor": {
-            "value": 1.45
+            "value": 1.475
         },
         "crew": {
             "value": 1.4
@@ -649,7 +667,7 @@
             "value": 0.25
         },
         "shogun": {
-            "value": 0.25
+            "value": 0.28
         },
         "rattler": {
             "value": 0.25
@@ -664,13 +682,13 @@
             "value": 0.15
         },
         "snake": {
-            "value": 0.145
+            "value": 0.15
         },
         "bloxy": {
             "value": 0.125
         },
         "tiny toy": {
-            "value": 0.1
+            "value": 0.125
         },
         "volt bike": {
             "value": 0.08
@@ -705,6 +723,9 @@
         "posh": {
             "value": 0.05
         },
+        "Aperture": {
+            "value": 0.3
+        },
         "classic": {
             "value": 0.025
         },
@@ -732,22 +753,22 @@
             "value": 0.085
         },
         "hyper red lvl 2": {
-            "value": 0.25
+            "value": 0.3
         },
         "hyper red lvl 3": {
-            "value": 3.5
+            "value": 3.25
         },
         "hyper red lvl 4": {
-            "value": 13.0
+            "value": 12.0
         },
         "hyper red lvl 5": {
-            "value": 29.0
+            "value": 22.25
         },
         "hyper green lvl 1": {
             "value": 0.08
         },
         "hyper green lvl 2": {
-            "value": 0.2
+            "value": 0.25
         },
         "hyper green lvl 3": {
             "value": 3
@@ -756,112 +777,145 @@
             "value": 11
         },
         "hyper green lvl 5": {
-            "value": 24
+            "value": 23
         },
         "hyper blue lvl 1": {
             "value": 0.08
         },
         "hyper blue lvl 2": {
-            "value": 0.2
+            "value": 0.25
         },
         "hyper blue lvl 3": {
-            "value": 2.75
+            "value": 3.4
         },
         "hyper blue lvl 4": {
-            "value": 12.5
+            "value": 11
         },
         "hyper blue lvl 5": {
-            "value": 30.5
+            "value": 24
         },
         "hyper pink lvl 1": {
             "value": 0.07
         },
         "hyper pink lvl 2": {
-            "value": 0.175
-        },
-        "hyper pink lvl 3": {
-            "value": 2
-        },
-        "hyper pink lvl 4": {
-            "value": 6.25
-        },
-        "hyper pink lvl 5": {
-            "value": 13
-        },
-        "hyper diamond lvl 1": {
-            "value": 0.065
-        },
-        "hyper diamond lvl 2": {
-            "value": 0.175
-        },
-        "hyper diamond lvl 3": {
-            "value": 1.75
-        },
-        "hyper diamond lvl 4": {
-            "value": 6
-        },
-        "hyper diamond lvl 5": {
-            "value": 12
-        },
-        "hyper orange lvl 1": {
-            "value": 0.055
-        },
-        "hyper orange lvl 2": {
             "value": 0.15
         },
-        "hyper orange lvl 3": {
-            "value": 1.25
-        },
-        "hyper orange lvl 4": {
-            "value": 4
-        },
-        "hyper orange lvl 5": {
-            "value": 8
-        },
-        "hyper purple lvl 1": {
-            "value": 0.06
-        },
-        "hyper purple lvl 2": {
-            "value": 0.17
-        },
-        "hyper purple lvl 3": {
+        "hyper pink lvl 3": {
             "value": 1.5
         },
+        "hyper pink lvl 4": {
+            "value": 6.5
+        },
+        "hyper pink lvl 5": {
+            "value": 14
+        },
+        "hyper diamond lvl 1": {
+            "value": 0.0650
+        },
+        "hyper diamond lvl 2": {
+            "value": 0.14
+        },
+        "hyper diamond lvl 3": {
+            "value": 1.5
+        },
+        "hyper diamond lvl 4": {
+            "value": 6.25
+        },
+        "hyper diamond lvl 5": {
+            "value": 11.5
+        },
+        "hyper orange lvl 1": {
+            "value": 0.0550
+        },
+        "hyper orange lvl 2": {
+            "value": 0.1
+        },
+        "hyper orange lvl 3": {
+            "value": 0.925
+        },
+        "hyper orange lvl 4": {
+            "value": 4.25
+        },
+        "hyper orange lvl 5": {
+            "value": 7.5
+        },
+        "hyper purple lvl 1": {
+            "value": 0.0625
+        },
+        "hyper purple lvl 2": {
+            "value": 0.125
+        },
+        "hyper purple lvl 3": {
+            "value": 1.25
+        },
         "hyper purple lvl 4": {
-            "value": 5.5
+            "value": 6
         },
         "hyper purple lvl 5": {
-            "value": 11
+            "value": 10.25
         },
         "hyper yellow lvl 1": {
-            "value": 0.05
+            "value": 0.0450
         },
         "hyper yellow lvl 2": {
-            "value": 0.13
+            "value": 0.0950
         },
         "hyper yellow lvl 3": {
-            "value": 0.75
+            "value": 0.725
         },
         "hyper yellow lvl 4": {
-            "value": 3.25
+            "value": 3.5
         },
         "hyper yellow lvl 5": {
-            "value": 7.5
+            "value": 6.5
         },
         "duped hypershift": {
             "value": 42
         },
         "clean hypershift": {
-            "value": 156
+            "value": 140
         },
         "og hypershift": {
             "value": 168
         },
         "vantablack": {
-            "value": 2.25
+            "value": 2.1
         },
         "gold": {
             "value": 0.25
+        },
+        "Fall Chrome": {
+            "value": 0.025
+        },
+        "Radient Ice": {
+            "value": 0.075
+        },
+        "Radient Purple": {
+            "value": 0.035
+        },
+        "Radient Red": {
+            "value": 0.03
+        },
+        "Radient Green": {
+            "value": 0.025
+        },
+        "Radient Orange": {
+            "value": 0.05
+        },
+        "Hot Orange": {
+            "value": 0.0005
+        },
+        "Super Lime": {
+            "value": 0.0015
+        },
+        "Darkest Purple": {
+            "value": 0.0125
+        },
+        "Deep Purple": {
+            "value": 0.0005
+        },
+        "Radient Yellow": {
+            "value": 0.03
         }
     }
 }
