@@ -21,19 +21,19 @@
     },
     "textures": {        
         "Aquatic": {
-            "value": 0.04 
+            "value": 0.03
         },
         "Manga": {
-            "value": 0.03  
+            "value": 0.05 
         },
         "Touchdown": {
             "value": 0.025 
         },
         "Lava": {
-            "value": 0.035
+            "value": 0.04
         },
         "Camo Radar": {
-            "value": 0.0375 
+            "value": 0.04
         },
         "Carbon Fire": {
             "value": 0.01  
@@ -48,13 +48,13 @@
             "value": 0.05 
         },
         "Superstar": {
-            "value": 0.025  
+            "value": 0.04
         },
         "Old Town": {
             "value": 0.125 
         },
         "Circuit": {
-            "value": 0.045  
+            "value": 0.08 
         },
         "Black ice": {
             "value": 0.225 
@@ -78,7 +78,7 @@
             "value": 0.125
         },
         "Field": {
-            "value": 0.25
+            "value": 0.2
         },
         "Hotdog": {
             "value": 0.075
@@ -129,7 +129,7 @@
             "value": 0.35
         },
         "Wavy": {
-            "value": 0.010
+            "value": 0.1
         },
         "Gulf": {
             "value": 0.05
@@ -396,13 +396,13 @@
             "value": 0.25
         },
         "Soccer": {
-            "value": 0.25
+            "value": 0.15
         },
         "Spider Leg": {
             "value": 0.25
         },
         "Star Badge": {
-            "value": 0.2
+            "value": 0.25
         },
         "Flower": {
             "value": 0.0005
