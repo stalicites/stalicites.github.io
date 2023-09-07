@@ -4,7 +4,7 @@
             "value": 0.0000001
         },
         "dyinggrass": {
-            "value": 0.0080085
+            "value": 0.006942  
         },
         "life": {
             "value": 0.0000042
@@ -114,7 +114,7 @@
             "value": 1.1
         },
         "Fire": {
-            "value": 0.625
+            "value": 0.6
         },
         "Galactic Carbon": {
             "value": 0.45
@@ -129,7 +129,7 @@
             "value": 0.35
         },
         "Wavy": {
-            "value": 0.1
+            "value": 0.0750
         },
         "Berlin Graffiti": {
             "value": 0.0450
@@ -137,7 +137,7 @@
         "Gulf": {
             "value": 0.05
         },
-        "Orang Pixel": {
+        "Orange Pixel": {
             "value": 0.2
         },
         "Blue Pixel": {
@@ -219,19 +219,19 @@
     },
     "rims": {
         "Spinner": {
-            "value": 7.5
+            "value": 7.25
         },
         "Void": {
-            "value": 4.5
+            "value": 4.6
         },
         "RTX": {
             "value": 2.0
         },
         "Snowface": {
-            "value": 0.55
+            "value": 0.5
         },
         "Snow flake": {
-            "value": 0.8
+            "value": 0.75
         },
         "Brickset rims": {
             "value": 0.6
@@ -434,13 +434,13 @@
             "value": 0.075
         },
         "thrusters": {
-            "value": 4.25
+            "value": 4.35
         },
         "2 billion": {
-            "value": 1.45
+            "value": 1.6
         },
         "brickset spoiler": {
-            "value": 0.9
+            "value": 1
         },
         "cash spitters": {
             "value": 0.25
@@ -610,7 +610,7 @@
             "value": -0.0000003
         },
         "torpedo": {
-            "value": 5.2
+            "value": 5.25
         },
         "beam": {
             "value": 5
@@ -619,7 +619,7 @@
             "value": 4
         },
         "icebreaker": {
-            "value": 3.6
+            "value": 3.75
         },
         "beignet": {
             "value": 2.5
@@ -628,10 +628,10 @@
             "value": 2.25
         },
         "banana": {
-            "value": 1.55
+            "value": 1.6
         },
         "raptor": {
-            "value": 1.475
+            "value": 1.5
         },
         "crew": {
             "value": 1.4
@@ -649,22 +649,22 @@
             "value": 0.75
         },
         "m12": {
-            "value": 0.55
+            "value": 0.5625
         },
         "volt 4x4": {
             "value": 0.4
         },
         "macaron": {
-            "value": 0.375
+            "value": 0.39
         },
         "parisian": {
             "value": 0.3
         },
         "torero": {
-            "value": 0.275
+            "value": 0.2625
         },
         "goliath": {
-            "value": 0.25
+            "value": 0.2625
         },
         "shogun": {
             "value": 0.28
@@ -709,28 +709,28 @@
             "value": 0.1
         },
         "megalodon": {
-            "value": 0.1
+            "value": 0.09
         },
         "shell classic": {
-            "value": 0.1
+            "value": 0.0850
         },
         "jack rabbit": {
-            "value": 0.1
+            "value": 0.0850
         },
         "suv": {
-            "value": 0.04
+            "value": 0.034
         },
         "posh": {
-            "value": 0.05
+            "value": 0.0375
         },
         "Aperture": {
             "value": 0.3
         },
         "classic": {
-            "value": 0.025
+            "value": 0.021
         },
         "mighty": {
-            "value": 0.02
+            "value": 0.023
         },
         "steed": {
             "value": 0.025
@@ -870,22 +870,22 @@
             "value": 6.55
         },
         "duped hypershift": {
-            "value": 45
+            "value": 42
         },
         "clean hypershift": {
-            "value": 150
+            "value": 140
         },
         "og hypershift": {
-            "value": 192
+            "value": 168
         },
         "vantablack": {
-            "value": 2.1
+            "value": 2.15
         },
         "gold": {
             "value": 0.25
         },
         "Fall Chrome": {
-            "value": 0.05
+            "value": 0.025
         },
         "Radient Ice": {
             "value": 0.075
