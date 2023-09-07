@@ -750,58 +750,58 @@
     },
     "colors": {
         "hyper red lvl 1": {
-            "value": 0.085
+            "value": 0.0825
         },
         "hyper red lvl 2": {
-            "value": 0.3
+            "value": 0.325
         },
         "hyper red lvl 3": {
             "value": 3.25
         },
         "hyper red lvl 4": {
-            "value": 12.0
+            "value": 11.0
         },
         "hyper red lvl 5": {
-            "value": 22.25
+            "value": 22.5
         },
         "hyper green lvl 1": {
             "value": 0.08
         },
         "hyper green lvl 2": {
-            "value": 0.25
+            "value": 0.3
         },
         "hyper green lvl 3": {
             "value": 3
         },
         "hyper green lvl 4": {
-            "value": 11
+            "value": 10
         },
         "hyper green lvl 5": {
-            "value": 23
+            "value": 21.5
         },
         "hyper blue lvl 1": {
-            "value": 0.08
+            "value": 0.085
         },
         "hyper blue lvl 2": {
-            "value": 0.25
+            "value": 0.35
         },
         "hyper blue lvl 3": {
-            "value": 3.4
+            "value": 3.5
         },
         "hyper blue lvl 4": {
-            "value": 11
+            "value": 12
         },
         "hyper blue lvl 5": {
             "value": 24
         },
         "hyper pink lvl 1": {
-            "value": 0.07
+            "value": 0.0725
         },
         "hyper pink lvl 2": {
-            "value": 0.15
+            "value": 0.175
         },
         "hyper pink lvl 3": {
-            "value": 1.5
+            "value": 1.75
         },
         "hyper pink lvl 4": {
             "value": 6.5
@@ -810,10 +810,10 @@
             "value": 14
         },
         "hyper diamond lvl 1": {
-            "value": 0.0650
+            "value": 0.0675
         },
         "hyper diamond lvl 2": {
-            "value": 0.14
+            "value": 0.15
         },
         "hyper diamond lvl 3": {
             "value": 1.5
@@ -822,7 +822,7 @@
             "value": 6.25
         },
         "hyper diamond lvl 5": {
-            "value": 11.5
+            "value": 12
         },
         "hyper orange lvl 1": {
             "value": 0.0550
@@ -831,10 +831,10 @@
             "value": 0.1
         },
         "hyper orange lvl 3": {
-            "value": 0.925
+            "value": 1
         },
         "hyper orange lvl 4": {
-            "value": 4.25
+            "value": 4.5
         },
         "hyper orange lvl 5": {
             "value": 7.5
@@ -843,10 +843,10 @@
             "value": 0.0625
         },
         "hyper purple lvl 2": {
-            "value": 0.125
+            "value": 0.14
         },
         "hyper purple lvl 3": {
-            "value": 1.25
+            "value": 1.4
         },
         "hyper purple lvl 4": {
             "value": 6
@@ -858,25 +858,25 @@
             "value": 0.0450
         },
         "hyper yellow lvl 2": {
-            "value": 0.0950
+            "value": 0.0900
         },
         "hyper yellow lvl 3": {
-            "value": 0.725
+            "value": 0.75
         },
         "hyper yellow lvl 4": {
             "value": 3.5
         },
         "hyper yellow lvl 5": {
-            "value": 6.5
+            "value": 6.55
         },
         "duped hypershift": {
-            "value": 42
+            "value": 45
         },
         "clean hypershift": {
-            "value": 140
+            "value": 150
         },
         "og hypershift": {
-            "value": 168
+            "value": 192
         },
         "vantablack": {
             "value": 2.1
