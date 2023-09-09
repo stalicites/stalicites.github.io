@@ -539,7 +539,7 @@
             "value": 0.0075
         },
         "King": {
-            "value": 100000
+            "value": 0.01
         },
         "Trade Sail": {
             "value": 0.07
@@ -619,7 +619,7 @@
             "value": 4
         },
         "icebreaker": {
-            "value": 3.75
+            "value": 4
         },
         "beignet": {
             "value": 2.5
@@ -730,7 +730,7 @@
             "value": 0.021
         },
         "mighty": {
-            "value": 0.023
+            "value": 0.021
         },
         "steed": {
             "value": 0.025
