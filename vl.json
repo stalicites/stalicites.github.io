@@ -77,6 +77,9 @@
         "Tiger": {
             "value": 0.125
         },
+        "Leclair": {
+            "value": 0.0035
+        },
         "Field": {
             "value": 0.2
         },
@@ -215,6 +218,11 @@
         },
         "Championtrumpets": {
             "value": 0.01
+        }
+    },
+    "Drifts": {        
+        "Cosmic Drift": {
+            "value": 0.01 
         }
     },
     "rims": {
@@ -437,7 +445,7 @@
             "value": 4.35
         },
         "2 billion": {
-            "value": 1.6
+            "value": 1.45
         },
         "brickset spoiler": {
             "value": 1
@@ -580,6 +588,9 @@
         "Deathtrap": {
             "value": 0.08
         },
+        "Boxocash": {
+            "value": 0.005
+        },
         "Orange Chute": {
             "value": 0.085
         },
@@ -684,6 +695,9 @@
         "snake": {
             "value": 0.15
         },
+        "Fiasco": {
+            "value": 0.0150
+        },
         "bloxy": {
             "value": 0.125
         },
@@ -717,14 +731,14 @@
         "jack rabbit": {
             "value": 0.0850
         },
-        "suv": {
+        "SUV": {
             "value": 0.034
         },
-        "posh": {
+        "Posh": {
             "value": 0.0375
         },
         "Aperture": {
-            "value": 0.3
+            "value": 0.27
         },
         "classic": {
             "value": 0.021
