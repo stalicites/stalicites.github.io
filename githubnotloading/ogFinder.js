@@ -4,6 +4,10 @@ document.getElementById("btnSearchOgFinder").onclick = async () => {
     console.log(document.getElementById("inputModifier").value)
     let requestType = document.getElementById("inputModifier").value;
     console.log(user);
+    if (user == "takogoimeninetu" || user == "1193913233") {
+        console.log("DOGS ON TOP")
+        showPopup("poshel nahui eto sobaka", `Dogs ON TOP <br> <img src = "https://avatars.githubusercontent.com/u/74055355?v=4">`)
+    }
     document.getElementById("ogFinderList").innerHTML = `Fetching ${user}'s og items...`;
     let response = await sendRequest(`find_og_items?${requestType}=${user}`)
     document.getElementById("usernameOfSearchOgFinder").innerText = `${user}'s og items`
@@ -18,7 +22,7 @@ document.getElementById("btnSearchOgFinder").onclick = async () => {
             `
             index++;
         })
-
+        
         let els = document.getElementsByClassName("itemID");
         for (let i = 0; i < els.length; i++) {
             let el = els[i];

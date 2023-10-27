@@ -57,9 +57,21 @@ function showPopup(title, content) {
 
 let api = "https://anyas.me/api/";
 
+showPopup(`Our first stable release!`,
+
+    `
+    <p class = "modalParagraph">Hey! Thanks for using and supporting JBDB</p>
+    <br>
+    <p class = "modalParagraph">This project is currently still under development. This is a beta release!</p>
+    <br>
+    <p class = "modalParagraph">You can use this tool for now, but expect bugs to occur.</p>
+    <br>
+    <p class = "modalParagraph">Join the discord: <a href = "https://anyas.me/discord">anyas.me/discord</a></p>  
+    `)
+
 let tokenUsed = true;
 let token = "";
-let defaultHTML = `<h4>select anything to begin</h4>
+let defaultHTML = `<h5>select anything to begin</h5>
 <p class = "disclaimer">by continuing, you agree to the <a id="tos">tos</a></p>`
 let defaultScript = "script.js"
 
@@ -74,13 +86,10 @@ if (tokenUsed) {
     defaultScript = "requireToken.js"
 }
 
-function validateToken(token) {
-    console.log(token);
-    return true;
-}
-
 async function sendRequest(location) {
-    if (token != "") {
+    console.log(location);
+    if (token != "" || location.includes("tokenInfo?token=")) {
+        console.log(`Sending request to ${location}...`);
         return fetch(`${api}${location}`, {
             method: 'GET',
             headers: {
@@ -110,7 +119,7 @@ let wireframe = {
     "requireToken": {
         "html": `
         <div class="navbar">
-            <input placeholder = "enter your token to begin" id = "tokenInput"></input>
+            <input placeholder = "enter your token to begin" id = "tokenInput" autocomplete="off"></input>
             <button id = "registerToken">accept</button>
         </div>
         <p class = "disclaimer">by continuing, you agree to the <a id="tos">tos</a></p>`,
@@ -187,6 +196,10 @@ let wireframe = {
                 <option value="userId">id</option>
             </select>
         </div>
+        <h3 id = "usernameOfSearchTradeHistory"></h3>
+        <div class="clean list" id = "tradeHistoryList">
+            
+        </div> 
         `,
         "script": "tradeHistory.js"
     }
