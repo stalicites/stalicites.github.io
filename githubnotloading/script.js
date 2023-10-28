@@ -88,7 +88,7 @@ if (tokenUsed) {
 
 async function sendRequest(location) {
     console.log(location);
-    if (token != "" || location.includes("tokenInfo?token=")) {
+    if (token != "" || location.includes("tokens/")) {
         console.log(`Sending request to ${location}...`);
         return fetch(`${api}${location}`, {
             method: 'GET',
