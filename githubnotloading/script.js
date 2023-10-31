@@ -24,6 +24,8 @@ function showItem(itemId, tradeHistory) {
     showPopup(`Item ID: ${itemId}`, modalHTML)
 }
 
+let gameLink = "https://www.roblox.com/games/15088245851/Jailbreak-Database-Panel";
+
 function showPopup(title, content) {
 
     // kill all other modals:
@@ -60,11 +62,13 @@ let api = "https://anyas.me/api/";
 showPopup(`Our first stable release!`,
 
     `
-    <p class = "modalParagraph">Hey! Thanks for using and supporting JBDB</p>
+    <p class = "modalParagraph">Hey! Thanks for using and supporting <i class = "orange">J</i><i class = "blue">B</i><i class = "orange">D</i><i class = "blue">B</i></p>
     <br>
     <p class = "modalParagraph">This project is currently still under development. This is a beta release!</p>
+    <p>Next update, I will get downloading inventories and tradelogs working I promise 😭</p>
     <br>
     <p class = "modalParagraph">You can use this tool for now, but expect bugs to occur.</p>
+    <p class = "modalParagraph">To obtain access, you can pay for a token and buy credits <a href = "${gameLink}" target="_blank">here.</a></p>
     <br>
     <p class = "modalParagraph">Join the discord: <a href = "https://anyas.me/discord">anyas.me/discord</a></p>  
     `)
@@ -86,9 +90,26 @@ if (tokenUsed) {
     defaultScript = "requireToken.js"
 }
 
+let pricing = [];
+
+async function go() {
+    const header = document.getElementById("header");
+    let response = await sendRequest("services");
+    let parsedResponse = Object.values(response);
+    console.log(parsedResponse)
+    pricing = parsedResponse
+    for (let i = 0; i < parsedResponse.length; i++) {
+        let c = parsedResponse[i];
+        console.log(i, c)
+        header.children[i].innerText = `${c.userFacingName} (${c.price} credits)`
+    }
+}
+
+go();   
+
 async function sendRequest(location) {
     console.log(location);
-    if (token != "" || location.includes("tokens/")) {
+    if (token != "" || location.includes("tokens/") || location.includes("services")) {
         console.log(`Sending request to ${location}...`);
         return fetch(`${api}${location}`, {
             method: 'GET',

@@ -50,5 +50,6 @@ document.getElementById("btnSearchDupeChecker").onclick = async () => {
         document.getElementById("tradeHistoryList").innerHTML = logsHTML
     } else {
         document.getElementById("usernameOfSearchTradeHistory").innerText = `We couldn't find any tradelogs under "${user}"`
+        document.getElementById("tradeHistoryList").innerHTML = ``;
     }
 }

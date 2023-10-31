@@ -40,7 +40,7 @@ document.getElementById("registerToken").onclick = async () => {
         
         `
         <p>Your token ${suggestedToken} seems to have insufficient balance.</p>
-        <a href="https://www.roblox.com/games/15088245851/Jailbreak-Database-Panel" target="_blank">Would you like to buy more?</a>
+        <a href="${gameLink}" target="_blank">Would you like to buy more?</a>
         `
         )
     }
