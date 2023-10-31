@@ -23,10 +23,10 @@ document.getElementById("registerToken").onclick = async () => {
         setPage("default");
     } else if (response == false) {
         showPopup("Token Error!", `
-        <p>Please provide a valid token!</p>
-        <p>Is there an error in the token "${suggestedToken}"?</p>
-        <p>If you don't have a token, you can buy one <a href="${gameLink}">here</a>!</p>
-        <p>If you believe this is an error, contact us! <a href = "https://anyas.me/discord" target="_blank">anyas.me/discord</a></p>
+        <p class = "modalParagraph">Please provide a valid token!</p>
+        <p class = "modalParagraph">Is there an error in the token "${suggestedToken}"?</p>
+        <p class = "modalParagraph">If you don't have a token, you can buy one <a href="${gameLink}" target="_blank">here</a>!</p>
+        <p class = "modalParagraph">If you believe this is an error, contact us! <a href = "https://anyas.me/discord" target="_blank">anyas.me/discord</a></p>
         `)
     } else if (Date.now()/1000 >= response.data.expiresAt) {
         showPopup("Token Error!", 
