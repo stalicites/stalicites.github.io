@@ -57,7 +57,7 @@ function showPopup(title, content) {
     }
 }
 
-let api = "https://anyas.me/api/";
+let api = "https://anyas.me/api/jbdb/";
 
 showPopup(`Our first stable release!`,
 
