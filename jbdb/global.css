@@ -1,0 +1,286 @@
+:root {
+    --background-color: rgb(0, 0, 0);
+    --text-color: rgb(255, 255, 255);
+    --hover-color: rgb(16, 75, 123);
+    --ripple-color: rgba(165, 221, 255, 0.7);
+}
+
+* {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    color: var(--text-color);
+}
+
+.orange {
+    color: orange;
+}
+
+.tokenData {
+    
+}
+
+#switchToken {
+    display: none;
+}
+
+.tokenDataDisplay {
+    padding: 0px;
+    margin: 0px;
+}
+
+.blue {
+    color: rgb(154, 154, 240);
+}
+
+.special {
+    background-color: rgb(15, 15, 15);
+}
+
+.modalTitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.modalParagraph {
+    margin: 0;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+button {
+    position: relative;
+    overflow: hidden;
+    transition: background 400ms;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    width: 200px;
+    height: 50px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+p {
+    font-size: 17px;
+}
+
+table, th, td {
+    border: 0.25px solid var(--text-color);
+    margin: 0px;
+    border-collapse: collapse;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    filter: blur(10px); /* Adjust the blur amount as needed */
+}
+
+th, td {
+    padding: 10px;
+}
+
+button:hover {
+    background-color: var(--hover-color);
+}
+
+.navbar {
+    margin-top: 10px;
+    display: flex;
+}
+
+span.ripple {
+    position: absolute; 
+    border-radius: 50%;
+    transform: scale(0);
+    animation: ripple 600ms linear;
+    background-color: var(--ripple-color);
+  }
+
+@keyframes ripple {
+    to {
+      transform: scale(4);
+      opacity: 0;
+    }
+}
+
+.og {
+    color: rgb(255, 161, 94);
+}
+
+input {
+    border: 0px;
+    outline: 0px;
+    border-bottom: 1px solid var(--text-color);
+    background-color: var(--background-color);
+    width: 300px;
+    transition: .25s ease-in;
+    padding: 4px;
+    flex-grow: 1;
+}
+
+
+#main {
+    padding: 10px;
+}
+
+#c {
+    display: block;
+}
+
+.modal {
+    padding: 17.5px;
+    background: var(--background-color);
+    border: 2px solid rgb(223, 223, 223);
+    border-radius: 3px;
+    width: 350px;
+    max-height: calc(100% - 32px);
+    overflow-y: auto;
+    transform: scale(0.9);
+    transition: transform 0.2s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    max-height: 300px;
+    z-index: 9999; /* Place it above everything */
+    display: flex;
+    flex-direction: column;
+    color: var(--text-color);
+    overflow-y: none;
+}
+
+svg {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+.header {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 0.5px solid var(--text-color);
+}
+
+.modalNavbar {
+    margin-top: 7.5 px;
+    text-align: right;
+}
+
+.settings {
+    display: none;
+}
+
+.modalTable {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+select {
+    border: 0px;
+    outline: 0px;
+    border-bottom: 1px solid black;
+    background-color: var(--background-color);
+    border-radius: 0px;
+}
+
+input:hover {
+    border-color: rgb(122, 122, 255);
+}
+
+.list {
+    padding-left: 30px;
+}
+
+a {
+    color: rgb(47, 157, 207);
+}
+
+.dupe {
+    border-left: 10px solid rgb(199, 49, 38);
+}
+
+.neutral {
+    border-left: 10px solid rgb(38, 180, 199);
+}
+
+.clean {
+    border-left: 10px solid rgb(38, 199, 92);
+}
+
+.title {
+    text-align: center;
+}
+
+.disclaimer {
+    font-size: 12px;
+}

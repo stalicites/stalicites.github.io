@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JBDB</title>
+    <link rel="stylesheet" href="global.css">
+</head>
+<body>
+        <div id = "main">
+            <div id = "c">
+                <div class = "header" id = "header">                  
+                    <button onclick="setPage(`ogFinder`)">Fetching...</button>
+                    <button onclick="setPage(`tradeHistory`)">Fetching...</button>
+                    <button onclick="setPage(`dupeChecker`)">Fetching...</button>
+                    <button onclick="setPage(`inventoryViewer`)">Fetching...</button>
+                </div>
+                <div class = 'tokenData'>
+                    <p id = "tokenDisplay" class="tokenDataDisplay"></p>
+                    <p id = "tokenBalance" class="tokenDataDisplay"></p>
+                    <a id = "switchToken" onclick="setBack()">Switch tokens</a>
+                </div>
+                <div id = "wireframe">
+                    
+                </div>
+                <div id = "scriptContainer">
+                    
+                </div>
+            </div>
+        </div>
+</body>
+<script src = "script.js"></script>
+</html>
